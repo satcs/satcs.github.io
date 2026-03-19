@@ -1,4 +1,4 @@
-const API_BASE = window.location.origin + '/api';
+const API_BASE = 'https://satcs.vercel.app/api';
 
 function getToken() {
   return localStorage.getItem('token');
